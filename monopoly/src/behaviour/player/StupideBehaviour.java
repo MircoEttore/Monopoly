@@ -20,7 +20,7 @@ public class StupideBehaviour extends ActivePlayerBehaviour {
 
 	@Override
 	protected void decideAcquistareTerreno(CaseAchetable caseCourante) {
-		Logger.info(((AgentJoueur)myAgent).getLocalName() + " est stupide : il n'achète aucun terrain ni maison");
+		Logger.info(((AgentJoueur)myAgent).getLocalName() + " \r\n" + "è stupido: non compra terra o casa");
 	}
 
 	@Override
