@@ -30,7 +30,7 @@ public class InfosPanel extends JPanel {
 			for(int i = 0; i < 8; i++)//
 				imgPions.add(ImageIO.read(new File(Constantes.PATH_IMG+Constantes.lesPions[i].toString()+".png")));
 				
-		}catch(IOException e){ Logger.err("<Erreur casePanel ImageIO.read MANNAIA LA TROIA > " + e);}
+		}catch(IOException e){ Logger.err("<Erreur casePanel ImageIO.read M LA TROIA > " + e);}
 	}
 	
 	public void paintComponent(Graphics g){

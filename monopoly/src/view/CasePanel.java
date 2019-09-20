@@ -33,7 +33,7 @@ public class CasePanel extends JPanel {
 			for(int i = 0; i < 8; i++)
 				imgPions.add(ImageIO.read(new File(Constantes.PATH_IMG+Constantes.lesPions[i].toString()+".png")));
 				
-		}catch(IOException e){ Logger.err("<Erreur casePanel ImageIO.readciao> " + e);}
+		}catch(IOException e){ Logger.err("<Erreur casePanel ImageIO.read ciao> " + e+"path:  "+Constantes.PATH_IMG+ind+".png");}
 	}
 	
 	public void paintComponent(Graphics g){

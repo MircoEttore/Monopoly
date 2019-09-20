@@ -42,7 +42,7 @@ public class Constantes implements Serializable {
 	public static final int CASE_PRISON = 10;
 	public static final int CASE_TAXE = 38;
 	public static final int CASE_IMPOTS = 4;
-	public static final String PATH_IMG = "C:\\Users\\Microvoice\\Downloads\\monopoly-master\\monopoly-master\\res\\";
+	public static final String PATH_IMG = "../monopoly/res/";
 
 	
 	//public static final String PATH_IMG = "../monopoly/res/";

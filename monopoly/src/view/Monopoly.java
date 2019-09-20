@@ -76,7 +76,7 @@ public class Monopoly extends JFrame implements ActionListener,PropertyChangeLis
 		panelWest.setLayout(westGLayout);
 		panelWest.setSize(new Dimension(660, 60));
 		panelCenter.setSize(new Dimension(540, 540));
-		panelCenter.add(new JLabel(new ImageIcon("C:\\\\\\\\Users\\\\\\\\Microvoice\\\\\\\\Downloads\\\\\\\\monopoly-master\\\\\\\\monopoly-master\\\\\\\\res\\\\\\\\center2.png")));
+		panelCenter.add(new JLabel(new ImageIcon("../monopoly/res/center2.png")));
 		
 		this.getContentPane().add(panelNorth, BorderLayout.NORTH);
 		this.getContentPane().add(panelEast, BorderLayout.EAST);
